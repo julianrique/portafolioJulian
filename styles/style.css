@@ -1,0 +1,74 @@
+/* FONT Quattrocento Sans */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Quattrocento+Sans&display=swap');
+
+/* FONT INCONSOLATA */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+/* FONT LA BELLE AURORE */
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+/* FONT OPEN SANS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* FONT ROBOYO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/*
+font-family: 'Quattrocento Sans', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'La Belle Aurore', cursive;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.logoJR{
+    margin-top: 3vh;
+    
+}
+
+body{
+    background-color: #1D1D1D;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: #CAF0F8;
+    font-size: 5em;
+    margin-left: 10vh;
+}
+
+.botonNav{
+    background: #00B4D8;
+    color: #ADE8F4;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin: 10px;
+}
+
+li>a>img{
+    width: 2vw;
+}
+footer>ul{
+    column-gap: 7vw;
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+main{
+    margin-top: 15vh;
+}
